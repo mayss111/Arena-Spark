@@ -1,19 +1,35 @@
-# game
+# Spark Arena
 
-A new Flutter project created with FlutLab - https://flutlab.io
+Battle Royale coloré et sûr pour enfants, inspiré de Free Fire — développé avec Flutter et Flame.
 
-## Getting Started
+## 📲 Installer l'application (Android)
 
-A few resources to get you started if this is your first Flutter project:
+1. Télécharge le fichier APK depuis la page des releases : [**Télécharger Spark Arena v1.1.0 (APK)**](https://github.com/mayss111/Arena-Spark/releases/latest/download/app-release.apk)
+2. Sur ton téléphone Android, ouvre le fichier `.apk` téléchargé.
+3. Si Android bloque l'installation, va dans **Paramètres > Sécurité** et autorise l'installation depuis "Sources inconnues" (ou accepte l'invite qui apparaît lors de l'ouverture du fichier).
+4. Installe puis lance l'application.
 
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
+> Toutes les versions sont disponibles sur la page [Releases](https://github.com/mayss111/Arena-Spark/releases).
 
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Développement
 
-## Getting Started: FlutLab - Flutter Online IDE
+Ce projet est un projet [Flutter](https://flutter.dev).
 
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Join the discussion and conversation on https://flutlab.io/residents
+### Prérequis
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (>=3.0.0)
+
+### Lancer en local
+
+```bash
+flutter pub get
+flutter run
+```
+
+### Générer l'APK
+
+```bash
+flutter build apk --release
+```
+
+L'APK généré se trouve dans `build/app/outputs/flutter-apk/app-release.apk`.
