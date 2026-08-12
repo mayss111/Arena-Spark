@@ -1,6 +1,6 @@
 # Spark Arena
 
-Battle Royale coloré et sûr pour enfants, inspiré de Free Fire — développé avec Flutter et Flame.
+Battle Royale coloré et sûr pour enfants,  développé avec Flutter et Flame.
 
 ## 📲 Installer l'application (Android)
 
